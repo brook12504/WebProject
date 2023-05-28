@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>본인소개, 관심기술, 관심 기업</title>
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <script type="text/javascript" src="Project.js"></script>
+</head>
+
+<body class="fade-in">
+    <div class="audio-container">
+        <audio src="audio_file.mp3" controls>
+            이 브라우저는 오디오 요소를 지원하지 않습니다...
+        </audio>
+    </div>
+    <div class="myName-display">
+        <strong>201901838 최길한</strong>
+    </div>
+    <div class="time-display" id="timeDisplay"></div>
+
+    <header>
+        <div class="backgroundColor">
+            <form id="colorForm">
+                <label for="color">배경색 지정 :</label>
+                <input type="color" id="color" name="color">
+                <button type="submit">적용</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="titleEffect"><strong>관심기술</strong></div>
+    </header>
+
+    <hr>
+    <nav>
+        <ul class="menu">
+            <li><a href="Project1.html"><strong>나의 소개</strong></a></li>
+            <li><a href="ProjectMenu2.html"><strong>관심 기술</strong></a></li>
+            <li><a href="ProjectMenu3.html"><strong>관심 기업</strong></a></li>
+            <li><a href="ProjectMenu4.html"><strong>Future Plan</strong></a></li>
+        </ul>
+    </nav>
+    <article>
+        <div class="stickies1" id="stickies01" onclick="stickyContent(1)">
+            <span class="sticky"><strong>웹 프레임워크</strong></span>
+        </div>
+
+        <div class="stickies2" id="stickies02" onclick="stickyContent(2)">
+            <span class="sticky"><strong>성능 최적화</strong></span>
+        </div>
+        <div class="stickies3" id="stickies03" onclick="stickyContent(3)">
+            <span class="sticky"><strong>데이터베이스</strong></span>
+        </div>
+        <canvas id="canvas1" width="400" height="500"></canvas>
+        <div class="stickiesAnswer1" id="stickiesAnswer1">
+            <h2>
+                웹 애플리케이션을 개발할 때 백엔드 개발자는 웹 프레임워크를 사용합니다.<br>
+                웹 프레임워크는 웹 서비스 개발을 위한 프레임워크이며 사용하면 쉽고 빠르게 웹사이트를 만들 수 있다.<br>
+                대표적인 웹 프레임워크로는 Django(Python), Spring(Spring Boot)(Java),
+                Ruby on Rails(Ruby), Express.js(Node.js) 등이 있습니다.<br>
+                저는 자바언어에 많이 익숙하기 때문에 웹 프레임워크로 스프링을 공부하고 있습니다.
+            </h2>
+
+        </div>
+        <div class="stickiesAnswer2" id="stickiesAnswer2">
+            <h2>
+                대규모 트래픽과 데이터를 다루는 백엔드 시스템에서 성능 최적화는 중요한 과제입니다. <br>
+                웹 로딩 속도가 느린 페이지는 사용자가 불만과 업체의 부정적 이미지와 선입견을 가지게 만듭니다. <br>
+                그렇기 때문에 백엔드 개발자는 서버 성능 튜닝, 캐싱, 로드 밸런싱 등에 대한 기술과 전략을 공부하고 적용합니다. <br>
+                먼저 웹 성능 예산(Web Performance Budget)을 세웁니다. 성능 예산은 웹 성능에 영향을 미치는 다양한 요소를 제어하는 한계값을 의미합니다.<br>
+                그 후 백엔드 개발자는 웹 성능을 높이는 방법들은 DNS 응답이 빨라지도록 서버 증설,
+                DNS 응답을 빠르게 할 수 있도록 DNS 정보를 최대한 캐싱등이 있습니다.
+            </h2>
+        </div>
+        <div class="stickiesAnswer3" id="stickiesAnswer3">
+            <h2>
+                백엔드 개발자는 데이터를 저장하고 관리하기 위해 데이터베이스를 사용합니다. <br>
+                데이터베이스는 회사의 내부 운영을 지원하고 고객 및 공급업체와의 상호 작용을 저장합니다.
+                또한 관리 정보와 엔지니어링 또는 경제 모델과 같은 보다 전문화된 데이터를 보유하고 있습니다.
+                디지털 도서관 시스템, 여행 예약 시스템 및 재고 시스템을 예로 들 수 있습니다.
+                데이터베이스가 필수적인 이유들에는 효율적인 확장, 데이터 무결성, 데이터 보안, 데이터 분석 등이 있습니다.
+                백엔드 개발자들은 주로 SQL 기반의 관계형 데이터베이스(MySQL, PostgreSQL, Oracle)나 NoSQL 데이터베이스(MongoDB, Redis)를 사용합니다.
+            </h2>
+        </div>
+
+
+
+    </article>
+
+    <footer class="page2">
+        <hr>
+        <p>
+            <strong>전화번호 : 01067438881 &nbsp &nbsp &nbsp &nbsp &nbsp <a href="https://github.com/brook12504">GitHub
+                    링크</a> &nbsp
+                &nbsp &nbsp &nbsp &nbsp 이메일 : choikilhan12@naver.com</strong>
+        </p>
+    </footer>
+
+</body>
+
+</html>
