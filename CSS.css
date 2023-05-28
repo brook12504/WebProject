@@ -460,7 +460,7 @@ article>.stickiesAnswer1 {
     border-radius: 15px;
     box-shadow: 5px 5px 1px rgb(74, 75, 73);
     position: absolute;
-    top: 425px;
+    top: 450px;
     left: 460px;
     z-index: 1;
     display: none;
@@ -473,7 +473,7 @@ article>.stickiesAnswer2 {
     border-radius: 15px;
     box-shadow: 5px 5px 1px rgb(74, 75, 73);
     position: absolute;
-    top: 425px;
+    top: 450px;
     left: 460px;
     z-index: 1;
     display: none;
@@ -486,7 +486,7 @@ article>.stickiesAnswer3 {
     border-radius: 15px;
     box-shadow: 5px 5px 1px rgb(74, 75, 73);
     position: absolute;
-    top: 425px;
+    top: 450px;
     left: 460px;
     z-index: 1;
     display: none;
@@ -499,7 +499,7 @@ article>.stickiesAnswer4 {
     border-radius: 15px;
     box-shadow: 5px 5px 1px rgb(74, 75, 73);
     position: absolute;
-    top: 440px;
+    top: 465px;
     left: 50px;
     z-index: 1;
     display: none;
@@ -513,7 +513,7 @@ article>.stickiesAnswer6 {
     border-radius: 15px;
     box-shadow: 5px 5px 1px rgb(74, 75, 73);
     position: absolute;
-    top: 440px;
+    top: 465px;
     left: 50px;
     z-index: 1;
     display: none;
@@ -565,7 +565,7 @@ footer.page2 p {
     border: 5px solid #ccc;
     background-color: #deb887;
     position: absolute;
-    top: 425px;
+    top: 450px;
     left: 30px;
 }
 
@@ -573,7 +573,7 @@ footer.page2 p {
     border: 5px solid #ccc;
     background-color: #deb887;
     position: absolute;
-    top: 425px;
+    top: 450px;
     left: 30px;
 }
 
